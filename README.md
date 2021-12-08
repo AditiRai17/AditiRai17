@@ -1,8 +1,6 @@
-- 👋 Hi, I’m @AditiRai17
-- 👀 I’m interested in coding and learning programming languages. 
-- 🌱 I’m currently learning python
-- 💞️ I’m looking to collaborate on...
-- 📫 How to reach me ...
+- 👋 Hi, I’m @Aditi Rai 
+- 👀 I’m interested in coding .
+- 📫 How to reach me ..email at : raiaditi449@gmail.com 
 
 <!---
 AditiRai17/AditiRai17 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
