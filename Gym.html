@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Club</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.google.com/specimen/Festive">
+<style>
+    * {
+        color: rgb(5, 5, 5);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 17px;
+    }
+    
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('https://cdn.pixabay.com/photo/2017/07/02/19/24/dumbbells-2465478_960_720.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 150%;
+    }
+    
+    .left {
+        display: inline-block;
+        border: 2px solid transparent;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+    }
+    
+    .left div {
+        text-align: center !important;
+    }
+    
+    #logo {
+        height: 70px;
+        width: 70px;
+    }
+    
+    .mid {
+        display: block;
+        width: 33%;
+        margin: 20px auto;
+        border: 2px solid transparent;
+    }
+    
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 20px;
+        display: inline-block;
+        border: 2px solid transparent;
+    }
+    
+    .navbar {
+        display: inline-block;
+    }
+    
+    .navbar li {
+        display: inline-block;
+        border: 2px solid none;
+        padding: 4px 3px;
+        margin: 6px 3px;
+    }
+    
+    .navbar li a {
+        text-decoration: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    
+    a:hover {
+        color: black;
+        background-color: rgb(252, 251, 250);
+    }
+    
+    a:visited {
+        text-decoration: underline;
+    }
+    
+    a:active {
+        text-decoration: underline;
+    }
+    
+    .btn {
+        color: rgb(3, 3, 3);
+        padding: 4px 14px;
+        border-radius: 8px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    
+    .btn:hover {
+        color: rgb(16, 126, 190);
+        text-decoration: underline;
+    }
+    
+    .btn:visited {
+        background-color: rgb(140, 187, 29);
+    }
+    
+    .Offer {
+        margin: 7px 166px;
+        width: 40%;
+        height: 30%;
+    }
+    
+    .container {
+        width: 33%;
+        padding: 4px 10px;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="left">
+            <nav class="navbar">
+                <ul>
+                    <li>
+                        <img id="logo" src="https://cdn.pixabay.com/photo/2018/01/17/06/07/woman-3087521_960_720.png" alt="Logo">
+                    </li>
+                    <li id="ln"><a href="#">Fitness Club</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="mid">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="https://fonts.google.com/">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Explore</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us Now</button>
+        </div>
+        <div class="container">
+            <img class="Offer" id="Promo" src="https://www.salmiyastore.com/wp-content/uploads/2019/07/get-upto-60-off-on-men.gif" alt="Discount Offer">
+            <br>
+            <br>
+            <h1>Join Now</h1>
+            <form action="xyz.html">
+                <input type="text" placeholder="Name">
+                <br>
+                <br>
+                <input type="text" placeholder="Email address">
+                <br>
+                <br>
+                <input type="text" placeholder="Phone Number">
+                <br>
+                <br>
+                <button class="btn">Submit!</button>
+            </form>
+        </div>
+    </header>
+</body>
+
+</html>
