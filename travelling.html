@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Times</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.google.com/specimen/Festive">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    * {
+        color: rgb(5, 5, 5);
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 17px;
+    }
+    
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('https://images.idgesg.net/images/article/2018/02/best_places_smart_cities_world_globe_thinkstock_469235498-100749511-large.jpg?auto=webp&quality=85,70');
+        background-repeat: no-repeat;
+        background-size: 101% 119%;
+        background-position: inherit;
+        background-clip: border-box;
+        background-blend-mode: darken;
+    }
+    
+    .left {
+        border: 2px solid transparent;
+        position: absolute;
+        left: 34px;
+        top: 20px;
+        display: grid;
+    }
+    
+    .left a {
+        color: rgb(10, 10, 10);
+        border: 10px solid transparent;
+    }
+    
+    #logo {
+        height: 70px;
+        width: 70px;
+    }
+    
+    p {
+        height: 10em;
+        width: 17em;
+        text-align: left;
+        border-width: 2px;
+        border-color: transparent;
+        border-style: solid;
+        border-radius: 2%;
+    }
+    
+    .para {
+        border: 2px;
+        float: left;
+        padding-top: 258px;
+        padding-left: 12px;
+    }
+    
+    .btn {
+        background-color: rgb(235, 168, 172);
+        padding: 6px;
+        border: none;
+        cursor: pointer;
+        font-size: 13px;
+        border-radius: 4px;
+    }
+    
+    #search {
+        float: right;
+        border-radius: 36px;
+        border: 6px;
+        margin: 19px;
+    }
+    
+    .icon-bar {
+        position: absolute;
+        bottom: 0px;
+        right: 0px;
+        padding: 0px 3px;
+        margin: 0px;
+    }
+    
+    .icon-bar a {
+        color: darkolivegreen;
+        border: 39px solid transparent;
+        padding: 16px;
+        margin: 4px;
+    }
+    
+    #mySidenav a {
+        border: 39px solid transparent;
+        padding: 16px;
+        margin: 4px;
+    }
+    
+    #mySidenav {
+        padding-top: 90px;
+        margin: 6px -250px -2px -54px;
+        float: right;
+        display: grid;
+    }
+    
+    #mySidenav a:hover {
+        color: black;
+    }
+    
+    #mySidenav a:visited {
+        color: rgb(158, 212, 212);
+        text-decoration-line: underline;
+    }
+    
+    #mySidenav a:active {
+        background-color: rgb(152, 204, 155);
+    }
+</style>
+
+<body>
+    <header>
+        <div class="left">
+            <a href="#"><img id="logo" src="https://previews.123rf.com/images/asmati/asmati1706/asmati170606735/80931550-pittogramma-e-simbolo-di-viaggio-aereo-isolato-icona-bianca-con-morbida-ombra-su-sfondo-trasparente.jpg" alt="Logo"></a>
+            <a href="#">Travel Times</a>
+        </div>
+        <div class="para">
+            <h1>SEE THE WORLD</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis nobis placeat atque harum perferendis accusantium excepturi consequuntur cupiditate quaerat nisi, delectus enim quos obcaecati neque. Maiores officiis voluptates impedit reiciendis delectus
+                ipsam eum vel.
+            </p>
+            <br>
+            <br>
+            <a href="https://www.google.com/" class="btn">Read More</a>
+        </div>
+
+        <div class="search">
+            <input type="text" name="search" id="search" placeholder="Search">
+        </div>
+
+        <div class="icon-bar">
+            <a class="active" href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+        </div>
+
+        <div id="mySidenav" class="sidenav">
+            <a href="www.google.com">HOME</a>
+            <a href="www.instagram.com">ABOUT</a>
+            <a href="www.yahoo.com">EXPLORE</a>
+            <a href="www.facebook.com">CONTACT</a>
+        </div>
+    </header>
+</body>
+
+</html>
