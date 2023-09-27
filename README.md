@@ -9,13 +9,13 @@
 
 <p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
 
-- 🌱 I’m currently learning **DSA and DBMS**
+- 🌱 I’m currently exploring **Cybersecurity & Networking**
 
-- 💬 Ask me about **c/c++**
+- 💬 Ask me about **Coding , CyberSecurity , Scripting , AI , Development , Graphic Designing & Video Editing**
 
 - 📫 How to reach me **raiaditi178@gmail.com**
 
-- ⚡ Fun fact **I Love To Code...**
+- ⚡ Fun fact **I build Codes**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
